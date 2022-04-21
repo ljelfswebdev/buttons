@@ -1,0 +1,163 @@
+/*divs*/
+.page{
+    width: 200px;
+    height: 100%;
+    margin: 0 auto 0;
+    background: #fff;
+}
+.a{
+    margin-bottom: 1rem;
+}
+.b{
+    margin-bottom: 1rem;
+}
+.c{
+    margin-bottom: 1rem;
+}
+.d{
+    margin-bottom: 1rem;
+}
+.e{
+    margin-bottom: 1rem;
+}
+.f{
+    margin-bottom: 1rem;
+}
+
+/*buttons*/
+
+
+/*one*/
+
+.one{
+    border-radius: 4px;
+    background-color: purple;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.one{
+ cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.one:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.one:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+  
+.one:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+
+/*two*/
+.two {
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.two:hover{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    animation:slidebg 5s linear infinite;
+}
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+}
+
+/*three*/
+
+.three {
+    border-radius: 4px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.three:hover, 
+.three:focus {
+  animation: pulse 1s;
+  box-shadow: 5 5 5 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 5 5 5 5  var(--hover); }
+}
+
+/*four*/
+
+.four{
+    border-radius: 4px;
+    background-color: green;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.four:hover {
+    letter-spacing: 8px;
+}
+
+/*five*/
+
+.five{
+    border-radius: 4px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.five:hover{
+    transform: translateY(-3px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+}
